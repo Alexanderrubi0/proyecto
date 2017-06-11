@@ -1,0 +1,36 @@
+/*Footer*/
+.pie{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background-color: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+
+  }
+
+div [class*="bloque"]{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2em;
+  margin: 0%;
+
+}
+.bloque1, .bloque2, .bloque3, .bloque4{
+  font-style: italic;
+  width: 100%;
+  background-color: #E6E8FA;
+}
+@media (min-width:900px) {
+  .bloque1, .bloque2, .bloque3, .bloque4{
+    width: 20%;
+  }
+}
+
+@media (max-width:900px){
+  .bloque1, .bloque2, .bloque3, .bloque4{
+    width: 100%;
+  }
+}
